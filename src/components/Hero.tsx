@@ -46,6 +46,10 @@ const Hero = () => {
               src="/favicon.png"
               alt="Obsidian Labs"
               className="relative h-28 w-28 rounded-full object-cover shadow-2xl ring-4 ring-white/10 transition-transform duration-500 hover:scale-110"
+              width={112}
+              height={112}
+              fetchPriority="high"
+              decoding="async"
             />
           </motion.div>
 
