@@ -16,13 +16,27 @@ const Index = () => {
       <CustomCursor />
       <Navbar />
       <Hero />
-      <HeroScrollDemo />
-      <HowToBuy />
-      <Products />
-      <Reviews />
-      <FAQ />
-      <Terms />
-      <DiscordCTA />
+      <div className="defer-render-section">
+        <HeroScrollDemo />
+      </div>
+      <div className="defer-render-section">
+        <HowToBuy />
+      </div>
+      <div className="defer-render-section">
+        <Products />
+      </div>
+      <div className="defer-render-section">
+        <Reviews />
+      </div>
+      <div className="defer-render-section">
+        <FAQ />
+      </div>
+      <div className="defer-render-section">
+        <Terms />
+      </div>
+      <div className="defer-render-section">
+        <DiscordCTA />
+      </div>
       <Footer />
     </div>
   );
